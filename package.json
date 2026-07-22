@@ -1,0 +1,13 @@
+{
+  "name": "phishguard-ai",
+  "version": "1.0.0",
+  "description": "AI Phishing Email Detector",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "express": "^4.22.2"
+  }
+}
